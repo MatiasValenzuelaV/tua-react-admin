@@ -1,7 +1,7 @@
 .sidebar {
     min-width: var(--sidebar-width);
-    height: 100vh;
-    position: fixed;
+    height: 100%;
+    position: absolute;
     left: 0;
     top: 0;
     background-color: var(--main-bg);
@@ -52,4 +52,12 @@
         var(--second-color)
     );
     color: var(--txt-white);
+}
+
+@media (max-width:900px) {
+    .sidebar{
+        min-width: 100px !important;
+        display: none;
+    }
+    
 }

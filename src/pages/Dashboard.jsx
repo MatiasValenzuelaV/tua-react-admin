@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 
 import { Link } from 'react-router-dom'
 
@@ -28,7 +28,7 @@ const chartOptions = {
             background: 'transparent'
         },
         dataLabels: {
-            enabled: false
+            enabled: true
         },
         stroke: {
             curve: 'smooth'
@@ -37,7 +37,7 @@ const chartOptions = {
             categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep']
         },
         legend: {
-            position: 'top'
+            position: 'bottom'
         },
         grid: {
             show: false

@@ -11,3 +11,10 @@
 .layout__content-main {
     padding: 30px;
 }
+
+@media (max-width:900px) {
+    .layout__content{
+        padding-left: 10px;
+    }
+    
+}
